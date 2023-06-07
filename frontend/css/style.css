@@ -28,17 +28,17 @@ h1{
     border-radius: 13px;
     margin: auto;
     height: 60vh;
-    padding: 33px;
     overflow-y: auto;
     margin-bottom: 23px;
     box-shadow: 2px 2px 3px 3px cyan;
 }
 
 .message{
+    font-size: 12px;
     background-color: rgb(225, 255, 187);
-    width: 24%;
-    padding: 10px;
-    margin: 17px 12px;
+    width: 39%;
+    padding: 10px 2px;
+    margin: 17px 8px;
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 2px 2px 3px 3px cyan;
