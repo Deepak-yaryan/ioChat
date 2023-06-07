@@ -1,5 +1,5 @@
 // I created a Realtime Chat Application Using NodeJs and SocketIO
-const socket = io('http://localhost:8000',{transports: ['websocket']});
+const socket = io('https://iochat.onrender.com',{transports: ['websocket']});
 
 // Get DOM elements in respective Js variables
 const form = document.getElementById('send-container');
