@@ -11,7 +11,7 @@ let audio = new Audio('/frontend/assets/ting.mp3');
 
 // Function which will append event info to the container
 const append = (message, position)=>{
-    const messageElement = document.createElement('div');
+    const messageElement = document.createElement('textarea');
     messageElement.innerText = message;
     messageElement.classList.add('message');
     messageElement.classList.add(position);
