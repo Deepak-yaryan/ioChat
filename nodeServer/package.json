@@ -4,7 +4,9 @@
   "description": "This is a node server for our iChat Apllication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i"
   },
   "author": "Deepak",
   "license": "ISC",
